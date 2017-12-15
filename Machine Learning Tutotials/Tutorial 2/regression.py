@@ -1,6 +1,11 @@
 import pandas as pd
 import quandl
 import math
+import numpy as np    #computing library
+from sklearn import preprocessing, cross_validation, svm
+from sklearn.linear_model import LinearRegression
+
+#preprocessing - we'll be using the scaling
 
 df = quandl.get('WIKI/GOOGL')
 
@@ -12,8 +17,6 @@ df['HL_PCT'] = (df['Adj. High'] - df['Adj. Close']) / df['Adj. Close'] * 100.0
 df['PCT_change'] = (df['Adj. Close'] - df['Adj. Open']) / df['Adj. Open'] * 100.0
 
 df=df[['Adj. Close','HL_PCT','PCT_change','Adj. Volume']]
-
-#print(df.head())
 
 forecast_col = 'Adj. Close'
 
@@ -35,7 +38,21 @@ forecast_out = int(math.ceil(0.01*len(df)))
 df['label'] = df[forecast_col].shift(-forecast_out)
 df.dropna(inplace=True)
 
-print(df.head())
+#print(df.head())
+#features usually marked with a capital x, and y are the labels
+#df.drop return a new dataframe with a dropped column,in this case label
+X = np.array(df.drop(['label'],1))
+y = np.array(df['label'])
+
+X = preprocessing.scale(X)
+
+X = X[:-forecast_out+1]
+
+df.dropna(inplace=True)
+y=np.array(df['label'])
+
+print(len(X),len(y))
+
 
 
 
