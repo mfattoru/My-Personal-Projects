@@ -1,0 +1,10 @@
+x=[3 7 1 2]
+y=[10 146 2 1]
+c=polyfit(x,y,3)
+a=-5
+b=10
+m=15
+h=(b-a)/(m-1)
+z=[a:h:b]
+pz=polyval(c,z)
+plot(z,pz)

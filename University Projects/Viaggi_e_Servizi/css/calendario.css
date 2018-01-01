@@ -1,0 +1,74 @@
+a {
+	text-decoration: none;
+}
+.switch{
+	display: inline;
+	position: relative;
+	background-color : #39599F;
+	border : 1px solid #000;
+	padding: 0px 16px 7px 16px;
+	margin: 10px;	
+	font-size: 50px;
+	border-radius:3px;
+}
+.switch a{
+	color : #fff;
+}
+.riga {
+	clear: left;
+	margin: 20px ;
+	padding: 7px ;
+}
+.cella {
+	height: auto;
+	width: 100px;
+	display: inline;
+	position: relative;
+	border: Solid 1px #000000;
+	margin: 10px;
+	padding: 7px 16px 7px 16px;
+	font-size: 30px;
+	color : #666;
+	background-color : #ffffcc;
+	border-radius:3px;
+}
+.tabella{
+	margin : 0 auto;
+	padding : 10px;
+	text-align : left;
+	width : 46em;
+	border : 1px solid #ccc;
+	border-radius:16px;
+}
+#testa{
+	text-align : center;
+	border: none;
+	background-color : transparent;
+	color : #39599F;
+	font-weight : normal;
+	
+}
+.weekday{
+	height: 47px;
+	float:left;
+	width: 66px;
+	position: relative;
+	text-align:center;
+	font-size: 30px;
+	background-color : #39599F;
+	border: Solid 1px #000000;
+	font-weight : bold;
+	color : #fff;
+	margin: 10px;	
+	border-radius:3px;
+	padding-top: 6px
+
+}
+#empty{
+	color : #eee;
+	margin: 9px;
+	padding: 7px 17px 7px 17px;
+	border : 1px solid #ccc;
+	background-color : #eee;
+	cursor : default;
+}

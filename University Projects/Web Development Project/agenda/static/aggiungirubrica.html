@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aggiungi a Rubrica</title>
+  </head>
+  
+  <body>
+    <h1 align="center">Inserisci I dati del Nuovo contatto</h1>
+    <form name="addRubrica" id="addRubrica" align="center" method="POST"  action="../jsp/addrubrica.jsp"> 
+        <!--Nome e cognome(caratteri, lettere accentate apostrofo e un solo spazio fra le parole)-->
+	Nome:<input type="text" name="Nome" required pattern="^([a-zA-Z\xE0\xE8\xE9\xF9\xF2\xEC\x27]\s?)+$" title="caratteri, lettere accentate apostrofo e un solo spazio fra le parole"><br>
+	Cognome:<input type="text" name="Cognome" required pattern="^([a-zA-Z\xE0\xE8\xE9\xF9\xF2\xEC\x27]\s?)+$" title="caratteri, lettere accentate apostrofo e un solo spazio fra le parole"><br>
+	Email:<input type="text" name="Email" required pattern="^[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$"><br>
+	<!--Indirizzo(caratteri,numeri,virgola, lettere accentate, apostrofo e un solo spazio fra le parole) -->
+	Indirizzo:<input type="text" name="Indirizzo" required pattern="^([a-zA-Z0-9\ \xE0\xE8\xE9\xF9\xF2\xEC\x27,])+$" title="caratteri,numeri,virgola, lettere accentate, apostrofo e un solo spazio fra le parole"><br>
+	<!--Telefono(numero composto da 10 cifre) -->
+	Telefono:<input type="text" name="Telefono" required pattern="^\d{10}$" title="numero composto da 10 cifre"><br>
+	<input type="submit" value="Aggiungi Rubrica">
+	<input type="reset" value="Cancella campi">
+    </form>
+  </body>
+</html>

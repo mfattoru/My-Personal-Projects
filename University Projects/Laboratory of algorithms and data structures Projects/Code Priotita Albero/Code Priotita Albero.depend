@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1338220511 source:c:\users\michele\dropbox\universita\da superare\lasd\code priotita albero\main.c
+	"header.h"
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+
+1338220600 c:\users\michele\dropbox\universita\da superare\lasd\code priotita albero\header.h
+	<stdio.h>
+
+1338220511 source:c:\users\michele\dropbox\universita\da superare\lasd\code priotita albero\funzioni.c
+	"header.h"
+	<stdio.h>
+	<malloc.h>
+

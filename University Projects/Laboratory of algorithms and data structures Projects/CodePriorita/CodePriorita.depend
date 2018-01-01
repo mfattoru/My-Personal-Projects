@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1337257555 source:c:\users\michele\dropbox\universita\da superare\lasd\codepriorita\main.c
+	<stdio.h>
+	"header.h"
+	<malloc.h>
+	<time.h>
+
+1337508346 c:\users\michele\dropbox\universita\da superare\lasd\codepriorita\header.h
+
+1337261117 source:c:\users\michele\dropbox\universita\da superare\lasd\codepriorita\funzioni.c
+	"header.h"
+	<stdio.h>
+	<limits.h>
+
+1351776534 source:c:\users\michele\desktop\codepriorita\main.c
+	<stdio.h>
+	"header.h"
+	<malloc.h>
+	<time.h>
+
+1351776228 c:\users\michele\desktop\codepriorita\header.h
+
+1351777635 source:c:\users\michele\desktop\codepriorita\funzioni.c
+	"header.h"
+	<stdio.h>
+	<limits.h>
+

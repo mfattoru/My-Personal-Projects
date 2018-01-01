@@ -1,0 +1,2 @@
+div.box{height:450px;width:250px;padding:1px;border-style:inset;border-color:grey;border-width:3px;}
+div.inner-box{height:440px;width:240px;padding:1px;overflow:auto;}

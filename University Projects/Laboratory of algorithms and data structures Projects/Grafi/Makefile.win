@@ -1,0 +1,52 @@
+# Project: grafi
+# Compiler: Default GCC compiler
+# Compiler Type: MingW 3
+# Makefile created by wxDev-C++ IDE 7.4.2.569 on 13/12/12 20:04
+
+WXLIBNAME = wxmsw29u
+CPP       = g++.exe
+CC        = gcc.exe
+WINDRES   = "windres.exe"
+OBJ       = Default\ Profile/main.o Default\ Profile/input.o Default\ Profile/grafi.o Default\ Profile/stack.o Default\ Profile/lista.o
+LINKOBJ   = "Default Profile/main.o" "Default Profile/input.o" "Default Profile/grafi.o" "Default Profile/stack.o" "Default Profile/lista.o"
+LIBS      = -L"C:/Program Files (x86)/Dev-Cpp/lib/wx/gcc_lib" -L"C:/Program Files (x86)/Dev-Cpp/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW32/lib"  
+INCS      = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include"
+CXXINCS   = -I"C:/Program Files (x86)/Dev-Cpp/MinGW32/include" -I"C:/Program Files (x86)/Dev-Cpp/" -I"C:/Program Files (x86)/Dev-Cpp/include/common"
+RCINCS    = --include-dir "C:/PROGRA~2/Dev-Cpp/include/common"
+BIN       = Default Profile/grafi.exe
+DEFINES   = 
+CXXFLAGS  = $(CXXINCS) $(DEFINES)  
+CFLAGS    = $(INCS) $(DEFINES)  
+GPROF     = gprof.exe
+ifeq ($(OS),Windows_NT)
+   RM = del /Q
+   FixPath = $(subst /,\,$1)
+else
+   RM = rm -f
+   FixPath = $1
+endif
+LINK      = gcc.exe
+
+.PHONY: all all-before all-after clean clean-custom
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	$(RM) $(call FixPath,$(LINKOBJ)) "$(call FixPath,$(BIN))"
+
+$(BIN): $(OBJ)
+	$(LINK) $(LINKOBJ) -o "$(BIN)" $(LIBS) 
+
+Default\ Profile/main.o: $(GLOBALDEPS) main.c grafi.h stack.h lista.h
+	$(CC) -c main.c -o "Default Profile/main.o" $(CFLAGS)
+
+Default\ Profile/input.o: $(GLOBALDEPS) input.c input.h
+	$(CC) -c input.c -o "Default Profile/input.o" $(CFLAGS)
+
+Default\ Profile/grafi.o: $(GLOBALDEPS) grafi.c grafi.h stack.h lista.h
+	$(CC) -c grafi.c -o "Default Profile/grafi.o" $(CFLAGS)
+
+Default\ Profile/stack.o: $(GLOBALDEPS) stack.c stack.h
+	$(CC) -c stack.c -o "Default Profile/stack.o" $(CFLAGS)
+
+Default\ Profile/lista.o: $(GLOBALDEPS) lista.c lista.h
+	$(CC) -c lista.c -o "Default Profile/lista.o" $(CFLAGS)

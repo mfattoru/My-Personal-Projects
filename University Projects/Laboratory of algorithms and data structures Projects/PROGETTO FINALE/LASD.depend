@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1353412905 source:c:\users\michele\desktop\lasd\heap.c
+	"heap.h"
+	<stdio.h>
+	<limits.h>
+	<malloc.h>
+	<float.h>
+
+1352110752 c:\users\michele\desktop\lasd\heap.h
+
+1353584638 source:c:\users\michele\desktop\lasd\main.c
+	"console.h"
+	<stdio.h>
+	"heap.h"
+
+1353580174 c:\users\michele\desktop\lasd\console.h
+	<conio.h>
+	<stdio.h>
+	<malloc.h>
+	<time.h>
+	<windows.h>
+
+1353581940 source:c:\users\michele\desktop\lasd\console.c
+	"Console.h"
+	"heap.h"
+	<math.h>
+
+1353584712 source:c:\users\michele\dropbox\progetti\lasd\main.c
+	"console.h"
+	<stdio.h>
+	"heap.h"
+
+1353580174 c:\users\michele\dropbox\progetti\lasd\console.h
+	<conio.h>
+	<stdio.h>
+	<malloc.h>
+	<time.h>
+	<windows.h>
+
+1352110752 c:\users\michele\dropbox\progetti\lasd\heap.h
+
+1354624096 source:c:\users\michele\dropbox\progetti\lasd\heap.c
+	"heap.h"
+	<stdio.h>
+	<limits.h>
+	<malloc.h>
+	<float.h>
+
+1354624097 source:c:\users\michele\dropbox\progetti\lasd\console.c
+	"Console.h"
+	"heap.h"
+	<math.h>
+

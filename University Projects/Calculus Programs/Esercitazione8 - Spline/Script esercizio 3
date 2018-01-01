@@ -1,0 +1,14 @@
+x=[0.0 0.5 1.0 6.0 7.0 9.0]
+y=[0.0 1.6 2.0 2.0 1.5 0.0]
+xx=linspace(0,9,100)
+coeff=polyfit(x,y,5)
+y1=polyval(coeff,xx)
+y2=spline(x,y,xx)
+coeff2=polyfit(x,y,2)
+y3=polyval(coeff2,xx)
+plot(xx,y1)
+hold on
+plot(xx,y2)
+hold on
+plot(xx,y3)
+

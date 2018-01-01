@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1333370303 source:c:\users\michele\dropbox\universita\da superare\lasd\fattoruso michele n86000299 versione 4.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+
+1335430406 source:c:\users\michele\dropbox\universita\da superare\lasd\lasd es1\main.c
+	<stdio.h>
+	"libreria.h"
+	"Compare.h"
+	"insert.h"
+	"iterativa.h"
+
+1334823241 c:\users\michele\dropbox\universita\da superare\lasd\lasd es1\libreria.h
+
+1334564630 c:\users\michele\dropbox\universita\da superare\lasd\lasd es1\compare.h
+	<string.h>
+
+1335189697 source:c:\users\michele\dropbox\universita\da superare\lasd\lasd es1\funzioni.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"libreria.h"
+
+1334564768 c:\users\michele\dropbox\universita\da superare\lasd\lasd es1\insert.h
+	<conio.h>
+	<time.h>
+	<math.h>
+	<stdlib.h>
+
+1335427616 source:e:\dropbox\my dropbox\universita\da superare\lasd\lasd es1\main.c
+	<stdio.h>
+	"libreria.h"
+	"Compare.h"
+	"insert.h"
+	"iterativa.h"
+
+1334823241 e:\dropbox\my dropbox\universita\da superare\lasd\lasd es1\libreria.h
+
+1334237419 e:\dropbox\my dropbox\universita\da superare\lasd\lasd es1\compare.h
+	<string.h>
+
+1334564768 e:\dropbox\my dropbox\universita\da superare\lasd\lasd es1\insert.h
+	<conio.h>
+	<time.h>
+	<math.h>
+	<stdlib.h>
+
+1335189697 source:e:\dropbox\my dropbox\universita\da superare\lasd\lasd es1\funzioni.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"libreria.h"
+
+1335446005 c:\users\michele\dropbox\universita\da superare\lasd\lasd es1\iterativa.h
+	"pila.h"
+
+1334823533 c:\users\michele\dropbox\universita\da superare\lasd\lasd es1\pila.h
+
+1334823650 source:c:\users\michele\dropbox\universita\da superare\lasd\lasd es1\iterativa.c
+
+1335458966 e:\dropbox\my dropbox\universita\da superare\lasd\lasd es1\iterativa.h
+	"pila.h"
+
+1334823533 e:\dropbox\my dropbox\universita\da superare\lasd\lasd es1\pila.h
+
+1334823650 source:e:\dropbox\my dropbox\universita\da superare\lasd\lasd es1\iterativa.c
+

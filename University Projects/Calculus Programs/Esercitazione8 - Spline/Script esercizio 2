@@ -1,0 +1,8 @@
+xx=linspace(0,6,121)
+x=[1 1.5 2 4.1 5]
+y=[1 -1 1 -1 1]
+plot(xx,spline(x,y,xx),'k-',x,y,'ro')
+coeff=polyfit(x,y,4)
+yy=polyval(coeff,xx)
+hold on
+plot(xx,spline(x,y,xx),'k-',x,y,'ro',xx,yy,'g*')

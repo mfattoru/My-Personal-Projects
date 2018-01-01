@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1339085875 source:c:\users\michele\dropbox\universita\da superare\lasd\grafi\main.c
+	<stdio.h>
+	"funzioni.h"
+
+1339085931 c:\users\michele\dropbox\universita\da superare\lasd\grafi\funzioni.h
+
+1339086045 source:c:\users\michele\dropbox\universita\da superare\lasd\grafi\funzioni.c
+	<stdio.h>
+	<malloc.h>
+	"funzioni.h"
+
+1339428839 source:e:\dropbox\my dropbox\universita\da superare\lasd\grafi\main.c
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	"funzioni.h"
+
+1339431655 e:\dropbox\my dropbox\universita\da superare\lasd\grafi\funzioni.h
+
+1339428937 source:e:\dropbox\my dropbox\universita\da superare\lasd\grafi\funzioni.c
+	<stdio.h>
+	<malloc.h>
+	<time.h>
+	<string.h>
+	<stdlib.h>
+	"funzioni.h"
+

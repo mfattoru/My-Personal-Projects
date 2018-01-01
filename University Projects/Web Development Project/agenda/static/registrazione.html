@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registrazione</title>
+    <h1 align="center">Registrazione</h1>
+  </head>
+  <body>
+    <center>
+    <form name="registrazione" id="registrazione" action="../jsp/registrazione.jsp" method="post">
+
+      Email :<input type="text" name="email" required pattern="^[a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$"><br>
+      <!--Nome e cognome(caratteri, lettere accentate apostrofo e un solo spazio fra le parole)-->
+      Nome :<input type="text" name="fname" required pattern="^([a-zA-Z\xE0\xE8\xE9\xF9\xF2\xEC\x27]\s?)+$" title="caratteri, lettere accentate apostrofo e un solo spazio fra le parole"><br>
+      Cognome :<input type="text" name="lname" required pattern="^([a-zA-Z\xE0\xE8\xE9\xF9\xF2\xEC\x27]\s?)+$" title="caratteri, lettere accentate apostrofo e un solo spazio fra le parole"><br>
+      <!--Indirizzo(caratteri,numeri,virgola, lettere accentate, apostrofo e un solo spazio fra le parole) -->
+      Indirizzo :<input type="text" name="indirizzo" required pattern="^([a-zA-Z0-9\ \xE0\xE8\xE9\xF9\xF2\xEC\x27,])+$" title="caratteri,numeri,virgola, lettere accentate, apostrofo e un solo spazio fra le parole"><br>
+      <!--Utente (lettere, numeri, e i segni . _ -)-->
+      User Name :<input type="text" name="userid" required pattern="^([a-zA-Z0-9\.\_\-])+$" title="lettere, numeri, e i segni . _ -"><br>
+      <!--Password (min 6, max 12 di caratteri, numeri, _ * - + ! ? , : ; .e lettere accentate)-->
+      password :<input type="password" name="pwd" required pattern="^[a-zA-Z0-9\_\*\-\+\!\?\,\:\;\.\xE0\xE8\xE9\xF9\xF2\xEC\x27]{6,12}" title="min 6, max 12 di caratteri, numeri, _ * - + ! ? , : ; .e lettere accentate">
+      <br><br>
+      <input type="submit" value="Registrati">
+    </form>
+  </center>
+  </body>
+</html>

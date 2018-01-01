@@ -1,0 +1,1 @@
+(3)nodo1-> nodo3(15.30)nodo2;nodo2->;nodo3->;.

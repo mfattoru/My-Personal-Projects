@@ -1,0 +1,13 @@
+function condizionamentoVandermonde(nmax)
+ for n=1:nmax
+ a =vander(1:.5:3*n);
+ con1(n) = cond(a 1);
+ cond(a,1);
+ con2(n) = cond(a);
+ coninf(n) = cond(a,inf);
+ end
+ plot(log10(con2))
+ hold on
+ plot(log10(con1),'g-d')
+ plot(log10(coninf),'m-*')
+end

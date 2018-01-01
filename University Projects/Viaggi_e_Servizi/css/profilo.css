@@ -1,0 +1,342 @@
+/**************************************************************************************************
+ * 		GENERAL STYLING
+**************************************************************************************************/
+
+#middle{
+    width: 100%;
+    min-height: 500px;
+	margin-left: 10%;
+}
+
+div.profilo{
+    background: #D3D3D3;
+    float: left;
+}
+
+
+/**************************************************************************************************
+ * 		TABS STYLING
+**************************************************************************************************/
+
+#tabs{
+    float: left;
+    width: 70%;
+    font: 85% "Trebuchet MS", sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+b {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/**************************************************************************************************
+ * 		PROFILE STYLING
+**************************************************************************************************/
+
+div.profilo {
+    float:left;
+    width: 6cm;
+}
+
+div.dati{
+    text-align:left;
+    margin-left: 20px;
+}
+
+/**************************************************************************************************
+ * 		TRAVEL STYLING
+**************************************************************************************************/
+
+div.viaggio {
+    width: 85%;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    padding: 30px 30px 30px 30px;
+    background: #39599F;
+    overflow: auto;
+    text-align: left;
+    color: white;
+}
+
+
+div.viaggio:hover{
+    opacity: 0.8;
+}
+
+
+div.riga-1 div {
+    float: left;
+    width: 20%;
+    overflow: hidden;
+    height: 18px;
+}
+
+
+
+div.riga-1 div + div {
+    margin-left: 20%;
+    overflow: hidden;
+    height: 18px;
+}
+
+
+div.riga-2 div {
+    float: left;
+    width: 30%; 
+    overflow: hidden;
+    height: 18px;
+}
+
+
+div.riga-2 div + div {
+     margin-left: 10%;
+     overflow: hidden;
+     height: 18px;
+}
+
+div.riga-3 div{
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    height: 18px;
+}
+
+
+
+
+/**********************************************************************
+ * 		FEEDBACK STYLING 
+ * *******************************************************************/
+
+div.modulo-feedback{
+    width: 100%;
+    border-bottom: 0.1em solid #ccc; 
+}
+
+
+
+
+#TestoFeedback{
+    width: 100%;
+    height: 50px;
+    resize: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+div.feedback{
+    width: 100%;
+}
+
+
+
+
+div.intestazione-left{
+    width: 60%;
+    position: relative;
+    top: 25px;
+    right: 2%;
+}
+
+
+
+
+div.data-post-left{
+    font-style: italic;
+    float: left;
+    width: 50%;
+}
+
+
+
+
+div.voto-post-left{
+    font-style: italic;
+    width: 30%;
+    position: relative;
+    left: 20%;
+}
+
+
+
+
+.tasto-left{
+    color: #fff;
+    background-color: #39599F;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: solid 1px #fff;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    top: 27px;
+    right: 10%;
+}
+
+
+
+
+.tasto-left:hover{
+    opacity: 0.8;
+}
+
+
+
+div.intestazione-right{
+    width: 60%;
+    position: relative;
+    top: 25px;
+    left: 10%;
+}
+
+
+
+
+
+div.data-post-right{
+    font-style: italic;
+    float:left;
+    width: 50%;
+}
+
+
+
+
+div.voto-post-right{
+    font-style: italic;
+    width: 30%;
+    position: relative;
+    left: 20%;
+}
+
+
+
+
+.tasto-right{
+    color: #fff;
+    background-color: #39599F;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border: solid 1px #fff;
+    cursor: pointer;
+    float: left;
+    position: relative;
+    top: 27px;
+    left: 10%;
+}
+
+
+
+
+.tasto-right:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
+div.mini-avatar-left{
+    margin-top: 20px;
+    float: left;
+    width: 70px;
+}
+
+
+
+div.mini-avatar-right{
+    margin-top: 20px;
+    float: right;
+    width: 70px;
+}
+
+
+
+.speech-bubble {
+    position: relative;
+    background-color: #39599F;
+    width: 60%;
+    line-height: 80px; 
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    font-family: sans-serif;
+    margin: 2em auto;
+}
+
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 15px solid;
+}
+
+
+
+
+.speech-bubble-top:after {
+    border-bottom-color: #39599F;
+    left: 50%;
+    bottom: 100%;
+    margin-left: -15px;
+}
+
+
+
+.speech-bubble-right{
+    left: 5%;
+}
+
+
+
+.speech-bubble-right:after {
+    border-left-color: #39599F;
+    left: 100%;
+    top: 50%;
+    margin-top: -15px;
+}
+
+
+
+
+.speech-bubble-bottom:after {
+    border-top-color: #39599F;
+    top: 100%;
+    left: 50%;
+    margin-left: -15px;
+}
+
+
+.speech-bubble-left{
+    right: 5%;
+}
+
+
+
+
+.speech-bubble-left:after {
+    border-right-color: #39599F;
+    top: 50%;
+    right: 100%;
+    margin-top: -15px;
+}​
